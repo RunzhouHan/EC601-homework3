@@ -19,4 +19,4 @@ barbara.png RGB: [67 67 67]-----
 
 barbara.png HSV: [ 0  0 67]-----
 
-barbara.png ycrcb: [ 67 128 128]
+barbara.png ycrcb: [ 67 128 128]-----
