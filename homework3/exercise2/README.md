@@ -4,12 +4,19 @@
 
 
 baboon.jpg RGB: [102 165 156]-----
+
 baboon.jpg HSV: [ 34  97 165]-----
+
 baboon.jpg ycrcb: [155 129  98]-----
+
 cameraman.png RGB: [161 161 161]-----
 
 cameraman.png HSV: [  0   0 161]-----
+
 cameraman.png ycrcb: [161 128 128]-----
+
 barbara.png RGB: [67 67 67]-----
+
 barbara.png HSV: [ 0  0 67]-----
+
 barbara.png ycrcb: [ 67 128 128]
