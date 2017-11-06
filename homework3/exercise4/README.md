@@ -6,14 +6,11 @@ truncate: Compare gray with threshold(127), change value above 127 to 127. Weake
 
 binary: Compare gray with threshold(127), change value above 127 to 255, below 127 to 0. Enhanced the contrast.
 
-band: Compare gray with threshold1(27), change value above 27 to 255, below 27 to 0. 
-	  Then compare gray with threshold1(125), change value above 125 to 0, below 125 to 255. 
-	  Bitwise and the two results. Because threshold1 and threshold2 are different in values, we get some bands to                   represent image infomation.
-	  Image inverts black and white, and lost some information.
+band: Compare gray with threshold1(27), change value above 27 to 255, below 27 to 0. Then compare gray with threshold1(125), change value above 125 to 0, below 125 to 255. Bitwise and the two results. Because threshold1 and threshold2 are different in values, we get some bands to represent image infomation.Image inverts black and white, and lost some information.
 	  
 semi: The algorithm automatically computes the threshold of bimodal image, change value above threshold to 0, and output none zero part. Decrease the variance of contrast.
 
-adaptive： the algorithm calculate the threshold for a small regions of the image. So we get different thresholds 		for different regions of the same image. Compare gray with threshold(127), change value above 127 to 255, 		   below 127 to 0. Keep most of original information, Enhanced the contrast.
+adaptive： the algorithm calculate the threshold for a small regions of the image. So we get different thresholds for different regions of the same image. Compare gray with threshold(127), change value above 127 to 255, below 127 to 0. Keep most of original information, Enhanced the contrast.
 
 
 ## 2.What are the disadvantages of binary threshold?
